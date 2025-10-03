@@ -1,5 +1,3 @@
-// Verificar dia da semana
-
 dia_da_semana = 4
 
 switch (dia_da_semana) {
