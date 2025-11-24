@@ -1,5 +1,6 @@
 alunos_e_notas = []
 somente_notas = 0
+maior_nota = 0
 
 for (let i = 1; i < 4; i++) {
     lista_temporaria = []
@@ -9,7 +10,7 @@ for (let i = 1; i < 4; i++) {
             nota = parseFloat(prompt('Digite a ' + j + 'ª nota de ' + nome + ': '))
             lista_temporaria.push(nome)
             lista_temporaria.push(nota)
-            somente_notas += nota
+            
         } else {
             nota = parseFloat(prompt('Digite a ' + j + 'ª nota de ' + nome + ': '))
             lista_temporaria.push(nota)
@@ -28,4 +29,4 @@ for (i=0; i < alunos_e_notas.length; i++) {
 
 
 // Letra c: Calcular e exibir a média das notas de cada aluno.
-document.write(somente_notas)
+document.write('<br>--------<br> A média das notas é: ' + somente_notas/alunos_e_notas.length)
