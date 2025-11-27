@@ -1,0 +1,5 @@
+Curso: Programação em Python
+Aluno: David Benner
+Situação: Aprovado
+Projeto: Sustentabilidade Digital
+Projeto: Sustentabilidade Digital
